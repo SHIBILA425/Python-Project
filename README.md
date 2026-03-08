@@ -9,6 +9,13 @@ This project analyzes historical sales data from a retail superstore to identify
 - **Jupyter Notebook** – Development environment
 ## Dataset
 The analysis uses the Superstore dataset, which includes information about orders, sales, profit, discounts, products, categories, and regions. This dataset helps evaluate sales performance across different business segments.
+## Data Preparation
+The following preprocessing steps were performed:
+- Resolved CSV encoding issues using encoding='latin1'
+- Extracted **Month** from the Order Date
+- Cleaned and prepared data for analysis
+- Used **groupby()** and **reset_index()** for aggregated insights
+- Organized data for monthly, category-wise, and regional analysis
 ## Key Insights
 - Sales peak during **November and December**, indicating strong seasonal demand.
 - The **Technology category** generates the highest revenue and profit.
